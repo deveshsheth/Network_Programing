@@ -22,7 +22,7 @@ public class BitExtraction {
         } else {
             System.out.println("bit at position " + pos + "is 1");
         }
-
+          //  0101
     }
 
 }

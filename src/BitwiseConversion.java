@@ -12,11 +12,11 @@ public class BitwiseConversion {
         for(rem = 7; rem >=0; rem--){
             result = decNum >> rem;
 
-            if ((result & 1) > 0) {
+            if ((result & 1) > 0) { //0101
                 System.out.print("1");
             }
             else{
-                System.out.print("0");
+                System.out.print("0");  //00000101
             }
         }
         System.out.println("");

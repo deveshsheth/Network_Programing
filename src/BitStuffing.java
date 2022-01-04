@@ -5,7 +5,7 @@ public class BitStuffing {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String awnser="";
-        String output="",num,check;
+        String output="",num;
         int count=0;
         do {
             System.out.println("Enter a Binary Number : ");
